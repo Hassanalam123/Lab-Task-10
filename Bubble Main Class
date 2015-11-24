@@ -1,1 +1,32 @@
+public class main {
 
+	public static void main(String[] args) {
+		
+	Array obj2=new Array();
+
+	int num1,i,num2;
+	
+	
+	
+	
+	int Array[]={89,25,01,99,0,45,7,3,65,100};		
+
+	for (num1= 0; num1 < ( 10 - 1 ); num1++) {
+	      for (num2 = 0; num2 < 10- num1 - 1; num2++) {
+	        if (Array[num2] > Array[num2+1]) 
+	        {
+	          i       = Array[num2];
+	          Array[num2]   = Array[num2+1];
+	          Array[num2+1] = i;
+	        }
+	      }
+	    }
+	 
+	
+	 
+	   for (num1= 0; num1 <10 ; num1++) 
+	      System.out.print( Array[num1] + ",");
+	
+	
+
+}}
