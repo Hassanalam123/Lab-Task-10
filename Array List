@@ -1,0 +1,4 @@
+public class Array {
+	int Array[]={89,25,01,99,0,45,7,3,65,100};		
+
+}
